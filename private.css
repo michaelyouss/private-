@@ -1,5 +1,5 @@
 :root {
-    --color-i: #cd4e17;
+    --color-i: #448c67;
     --container-r: 100px;
     --container-l: 100px;
 }
@@ -84,7 +84,7 @@ top: 232px;
 }
 .header .head .te h3{
     font-weight: bold;
-    color: #448c67;
+    color: var(--color-i);
     font-size: 52px;
     position: absolute;
     top: 186px;
@@ -93,10 +93,37 @@ top: 232px;
     position: absolute;
     top: 265px;
     font-size: 32px;
+    z-index: 3;
 }
 .header .head .te h2 span{
     margin-right: 12px;
 }
+.header .head .te h2 span::before{
+    content: "";
+    position: absolute;
+    width: 28%;
+    height: 4px;
+    background-color: var(--color-i);
+    bottom: -1px;
+    left: -2px;
+}
+.header .head .te p{
+    position: absolute;
+    top: 324px;
+    font-size: 30px;
+    z-index: 4;
+}
+@media(max-width:767px){
+    .header .head .te h2{
+        font-size: 25px;
+    }
+    .header .head .te p{
+        width: 100px;
+        left: 10px;
+        font-size: 26px;
+    }
+}
+
 
 
 /* .header::before {
