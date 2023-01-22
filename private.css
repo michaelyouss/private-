@@ -84,6 +84,18 @@ top: 232px;
 }
 .header .head .te h3{
     font-weight: bold;
+    color: #448c67;
+    font-size: 52px;
+    position: absolute;
+    top: 186px;
+}
+.header .head .te h2{
+    position: absolute;
+    top: 265px;
+    font-size: 32px;
+}
+.header .head .te h2 span{
+    margin-right: 12px;
 }
 
 
