@@ -5,15 +5,15 @@
 }
 
 body {
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
- font-family: sans-serif;
-} 
+    font-family: sans-serif;
+}
 
 @media(min-width:767px) {
     container {
@@ -42,63 +42,69 @@ body {
     background-position: center;
     background-color: #2a2b2f;
 }
-.header .head{
+
+.header .head {
     display: flex;
     justify-content: space-between;
     width: 80%;
     margin: auto;
 }
-.header .head .gm .mg img{
+
+.header .head .gm .mg img {
     width: 500px;
     position: absolute;
     right: 51px;
     top: 131px;
 
 }
-.header .head .gm .mo img{
+
+.header .head .gm .mo img {
     width: 400px;
     height: 377px;
     top: 113px;
     position: absolute;
     right: 138px;
 }
-@media(max-width:767px){
-    .header .head .gm .mg img{
-        /* left: 140px;
-        width: 288px;
-        top: 232px; */
 
-        left: 129px;
-width: 215px;
-top: 232px;
+@media(max-width:767px) {
+    .header .head .gm .mg img {
+        left: 134px;
+        width: 215px;
+        top: 232px;
     }
-    .header .head .gm .mo img{
+
+    .header .head .gm .mo img {
         left: 137px;
         width: 185px;
         height: 235px;
         top: 206px;
     }
 }
-.header .head .te{
+
+.header .head .te {
     color: #fff;
 }
-.header .head .te h3{
+
+.header .head .te h3 {
     font-weight: bold;
     color: var(--color-i);
     font-size: 52px;
     position: absolute;
     top: 186px;
 }
-.header .head .te h2{
+
+.header .head .te h2 {
     position: absolute;
     top: 265px;
     font-size: 32px;
     z-index: 3;
 }
-.header .head .te h2 span{
+
+.header .head .te h2 span {
     margin-right: 12px;
 }
-.header .head .te h2 span::before{
+
+.header .head .te h2 span::before {
     content: "";
     position: absolute;
     width: 28%;
@@ -107,21 +113,42 @@ top: 232px;
     bottom: -1px;
     left: -2px;
 }
-.header .head .te p{
+
+.header .head .te p {
     position: absolute;
     top: 324px;
     font-size: 30px;
     z-index: 4;
 }
-@media(max-width:767px){
-    .header .head .te h2{
+
+@media(max-width:767px) {
+    .header .head .te h2 {
         font-size: 25px;
     }
-    .header .head .te p{
+
+    .header .head .te p {
         width: 100px;
         left: 10px;
         font-size: 26px;
     }
+    .header .coc{
+        margin-left: 116px;
+      
+    }
+}
+.header .coc{
+    font-size: 29px;
+    bottom: 57px;
+    position: absolute;
+    left: 22%;
+    transform: translatex(-50%);
+    color: var(--color-i);
+}
+.header .coc a{
+   color: var(--color-i);
+}
+.header .coc i{
+
 }
 
 
@@ -203,17 +230,18 @@ nav ul li a {
 @media(max-width:768px) {
     .header ul {
         position: absolute;
-        top: 70px;
+        top: -336px;
         background-color: rgb(0, 0, 0, 75%);
         position: fixed;
         text-align: center;
         align-items: center;
-        width: 75%;
+        width: 98%;
         height: 50vh;
         border-radius: 10px;
-        left: 170px;
+        left: 151px;
         transition: 0.5s;
-        z-index: 1;
+        z-index: 5;
+        margin-left: -146px;
 
     }
 
@@ -223,6 +251,6 @@ nav ul li a {
     }
 
     #check:checked~ul {
-        left: 600px;
+        top: 70px;
     }
 }
