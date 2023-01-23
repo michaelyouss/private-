@@ -273,9 +273,11 @@ nav ul li a {
 /* ============================================================= */
 .services {
     background-color: #2d2e32;
-    /* text-align: center;
-    align-items: center;
-    justify-content: center; */
+    min-height: 300px;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .container .serv {
@@ -284,42 +286,42 @@ nav ul li a {
     text-align: center;
     align-items: center;
     justify-content: center;
-    margin: auto;
-    width: 64%;
+    
 }
 
 .container .serv .serv-img {
     background-color: #2a2b2f;
-    width: 251px;
-    margin-top: 28px;
+    margin-top: 15px;
+    position: relative;
+    height: 264px;
+    border-radius: 35px;
 }
 
 .serv-img img {
     width: 251px;
     height: 181px;
-    margin: 0 0 31px;
+    
 }
 
 .serv-img .serv-text h2 {
-    padding: -2px 0 30px;
-    margin: -92px 0 62px;
     color: #fff;
-    font-size: 37px;
+    font-size: 38px;
     position: absolute;
+    bottom: 39px;
+    left: 50%;
+    transform: translate(-50%);
 }
 
 .serv-img .serv-text p {
-    margin: 61px;
+    
 }
 
 .serv-img .serv-text .brog {
-    left: 5px;
-    width: 240px;
     background-color: #2d2e32;
     height: 15px;
-    margin: 31px 0 0 0;
-    position: relative;
-    top: -19px;
+    margin: 51px 0 0 0;
+    width: 316px;
+    padding-left: 10px;
 }
 
 .serv-img .serv-text .brog span {
