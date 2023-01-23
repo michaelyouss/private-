@@ -259,12 +259,12 @@ nav ul li a {
 
 /* ============================================================= */
 .services {
-   
     background-color: #2d2e32;
     /* text-align: center;
     align-items: center;
     justify-content: center; */
 }
+
 .container .serv {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(285px, 1fr));
@@ -272,33 +272,33 @@ nav ul li a {
     align-items: center;
     justify-content: center;
     margin: auto;
-    width: 80%;
-    /* height: 500px;  */
+    width: 64%;
 }
+
 .container .serv .serv-img {
     background-color: #2a2b2f;
     width: 251px;
     margin-top: 28px;
-   
 }
-.serv-img{
-  
-}
+
 .serv-img img {
     width: 251px;
     height: 181px;
     margin: 0 0 31px;
 }
-.serv-img .serv-text h2{
+
+.serv-img .serv-text h2 {
     padding: -2px 0 30px;
     margin: -92px 0 62px;
     color: #fff;
     font-size: 37px;
     position: absolute;
 }
-.serv-img .serv-text p{
+
+.serv-img .serv-text p {
     margin: 61px;
 }
+
 .serv-img .serv-text .brog {
     left: 5px;
     width: 240px;
@@ -308,19 +308,20 @@ nav ul li a {
     position: relative;
     top: -19px;
 }
-.serv-img .serv-text .brog span{
+
+.serv-img .serv-text .brog span {
     display: block;
     background-color: var(--color-i);
     height: 100%;
     position: relative;
-     margin: 30px 0 0 0; 
-  
+    margin: 30px 0 0 0;
+
 }
 
 
 
 
-.serv-img .serv-text .brog span::before{
+.serv-img .serv-text .brog span::before {
     content: attr(data-progress);
     position: absolute;
     background-color: #2a2b2f;
@@ -332,7 +333,8 @@ nav ul li a {
     text-align: center;
     border-radius: 4px;
 }
-.serv-img .serv-text .brog span::after{
+
+.serv-img .serv-text .brog span::after {
     content: "";
     position: absolute;
     border-style: solid;
@@ -341,6 +343,8 @@ nav ul li a {
     right: -6px;
     top: -12px;
 }
+/* End cection */
+/* ============================================ */
+/* Start cection */
 
-
-
+/* End cection */
