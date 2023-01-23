@@ -346,5 +346,49 @@ nav ul li a {
 /* End cection */
 /* ============================================ */
 /* Start cection */
+.about-me{
+    position: relative;
+    min-height: 300px;
+    background-color: #2d2e32;
+}
 
+.about-me .me-img-text{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(354px, 1fr));
+}
+
+.about-me .me-img-text .about-amg {
+text-align: center;
+z-index: 6;
+}
+.about-me .me-img-text .about-amg::before{
+    content: "";
+    background-color: transparent;
+    position: absolute;
+    width: 200px;
+    height: 236px;
+    border-bottom: 3px solid var(--color-i);
+    border-left: 2px solid var(--color-i);
+    border-right: 2px solid var(--color-i);
+    border-top: 2px solid var(--color-i);
+    top: 93px;
+    left: 93px;
+    z-index: -1;
+}
+@media(max:767px){
+    .about-me .me-img-text .about-amg::before{
+        content: "";
+        position: absolute;
+        top: 50px;
+        left: 100px;
+    }
+}
+
+.about-me .me-img-text .about-amg img{
+    margin-top: 64px;
+    width: 200px;
+    height: 236px;
+    margin-bottom: 64px;
+  
+}
 /* End cection */
