@@ -469,8 +469,41 @@ color: #fff;
     padding: 5px 27px;
     bottom: 56px;
     border-radius: 6px;
+    transition: 0.3s;
 }
+.skili .box-skili .box-ski .ski-text button:hover{
+background: linear-gradient(to right,#7a5e2e, #ac8a28);
+}
+
 .skili .box-skili .box-ski .ski-text button a{
 color: #000;
 text-decoration: none;
+}
+/* ============================================================== */
+.footer{
+    background-color: #2a2b2f;
+    color: #fff;
+}
+.footer h2{
+    text-align: center;
+    margin:0 0 20px 0;
+}
+.footer .ff{
+    text-align: center;
+    margin: 0 5px 0;
+}
+.footer ul{
+    text-align: center;
+    margin: 15px 0;
+}
+.footer ul i a{
+    text-decoration: none;
+}
+.footer ul i{
+    padding: 0 5px 0;
+    color: var(--color-i);
+}
+.footer .fg{
+ margin: 0 0 0 8px;
+    padding-bottom: 8px;
 }
